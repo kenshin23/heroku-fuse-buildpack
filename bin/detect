@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "Fuse 2.9.2"
+exit 0

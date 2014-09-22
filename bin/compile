@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+echo "-----> Installing libfuse2"
+cd $1
+curl https://raw.githubusercontent.com/kenshin23/fuse-lib/master/fuse_2.9.2.tar.gz -s -O -ssl3
+mkdir -p vendor/fuse
+tar -C vendor/fuse -xvf fuse_2.9.2.tar.gz
